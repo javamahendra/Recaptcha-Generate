@@ -57,7 +57,7 @@ public class EmployeeController {
 				return "index";
 			}
 		} else {
-			map.addAttribute("msg", "session is close...");
+			map.addAttribute("msg", "pls enter recaptcha... ");
 			return "index";
 
 		}

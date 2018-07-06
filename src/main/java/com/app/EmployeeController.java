@@ -5,7 +5,6 @@ import java.awt.Font;
 import java.awt.GradientPaint;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 import java.util.Hashtable;
 
@@ -124,7 +123,7 @@ public class EmployeeController {
 	private void createQRImage(HttpServletResponse response) throws WriterException, IOException {
 
 		String qrCodeText = "Name : Mahendra \nDesgination : Java Developer";
-		String filePath = "JD.png";
+		String filePath = "png";
 		int size = 125;
 		String fileType = "png";
 		System.out.println("DONE");

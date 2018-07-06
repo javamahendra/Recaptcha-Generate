@@ -17,7 +17,9 @@ ${pageContext. request.requestURI} --%>
 	<center>
 	<form action="/mahi" method="post">
 		<input type="text" name="recap" /> <input type="submit"
-			value="submit" /><br /> <img alt="recaptcha" src="ic.jpg">
+			value="submit" /><br /> 
+			<img alt="recaptcha" src="recaptchaImage.jpg"><br/>
+			<img alt="QR_code" src="qr_image.jpg"/>
 	</center>
 	</form>
 	<br /> ${msg}
